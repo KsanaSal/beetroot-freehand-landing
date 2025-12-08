@@ -1,0 +1,120 @@
+:root {
+    /* background color site */
+    --light-background-color: #ffffff;
+    --accent-background-color: #3DB370;
+    --accent-background-color-10: rgba(61, 179, 112, 0.1);
+    --dark-background-color: #16133D;
+    --medium-background-color: #EFEEF3;
+    --dark-background-color-10: rgba(21, 101, 216, 0.1);
+    --gray-line-background-color: #E5EAF4;
+
+    /* text color */
+    --dark-text-color: #16133D;
+    --medium-text-color: #7690A8;
+    --light-text-color: #ffffff;
+    --accent-text-color: #3DB370;
+}
+
+/* font family */
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.roboto-semi-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.quicksand-medium {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    }
+
+.nunito-sans-semi-bold {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    }
+
+/* base styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+    color: var(--dark-text-color);
+    background: var(--light-background-color);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+address {
+    font-style: normal;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.section {
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 135px;
+}
+
