@@ -137,3 +137,76 @@ button {
     color: var(--dark-text-color);
     font-size: 35px;
 }
+
+/* services styles */
+.services{
+    padding: 100px 0;
+    background-color: var(--light-background-color);
+}
+.services-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+.services-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.services-text{
+    text-transform: uppercase;
+    color: var(--medium-text-color);
+}
+.services-title{
+    color: var(--dark-text-color);
+    font-size: 40px;
+}
+.services-list{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+}
+.services-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 40px;
+    border: 1px solid var(--gray-line-background-color);
+    border-radius: 8px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.03);
+}
+.services-item-icon{
+    width: 64px;
+    height: 64px;
+    border: 1px solid var(--dark-background-color-10);
+    border-radius: 16px;
+    padding: 14px 0;
+}
+.services-icon{
+    width: 39px;
+    height: 39px;
+}
+.services-item-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+.services-item-title{
+    color: var(--dark-text-color);
+    font-size: 24px;
+}
+.services-item-description{
+    color: var(--dark-text-color);
+    font-size: 16px;
+    text-align: start;
+}
+.services-item-button{
+    color: var(--accent-text-color);
+    font-size: 16px;
+    background-color: var(--light-background-color);
+}
