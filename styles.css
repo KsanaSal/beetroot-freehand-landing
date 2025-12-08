@@ -118,3 +118,22 @@ button {
     padding: 0 135px;
 }
 
+/* header styles */
+.header{
+    padding: 22px 0;
+    background-color: var(--light-background-color);
+    border-bottom: 1px solid var(--medium-background-color);
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.icon-logo{
+    width: 32px;
+    height: 32px;
+}
+.logo{
+    color: var(--dark-text-color);
+    font-size: 35px;
+}
